@@ -46,21 +46,28 @@ Si nos gusta estar a la última (aunque con su riesgo...) podemos instalar las b
 
 ## Creación de un circuito
 
-### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
+![flujo de trabajo](http://docs.kicad-pcb.org/4.0.6/es/images/es/kicad_flowchart.png)
 
+### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
 
 ## Componentes
 
 Desde la pantalla inicial donde vemos el proyecto podemos abrir las distintas herramientas que se corresponden con las diferentes fases y resultados
 
-
 ![Pantalla inicial de Kicad](./images/PantallaInicialKicad.png)
 
-* Eeschema ![Create schema.png](./images/Create schema.png)
-* Pcbnew
-* Cvpcb
-* Schematic library editor
-* PCB footprint editor
+|Componente|Icono|Utilidad|Formato|
+|---|---|---|---|
+|Kicad | ![Kicad](./images/kicad.png)|Gestor de proyectos| *.pro|
+|Eeschema|![Create schema.png](./images/Create schema.png)| Editor de los esquemas electrónicos |*.sch, *.lib, *.net|
+|Pcbnew| ![PcbNew](./images/PCBNew.png)|Adaptamos el circuito a una placa|*.pcb, *.kicad_pcb|
+|Schematic Library Editor| ![Schematic Library Editor](images/SchematicLibraryEditor.png)||
+|PCB Footprint Editor| ![PCB Footprint Editor](./images/PCBFootprintEditor.png)|Editor de los formatos de los distintos componentes|
+|CvPCB |![CvPCB](./images/CVPCB.png)|Asocia los componentes y su huella (footprint)|*.cmp, *.net|
+|Gerber Viewer| ![Gerber Viewer](./images/GerberViewer.png)|Visor de formato Gerber|(formatos gerber)|
+|Bitmap To Component|![Bitmap 2 Component](./images/Bitmap2Component.png)|Convierte imágenes a componentes|*.kicad_wks,*.lib, kicad_mod|
+|PCB Calculator| ![PCB Calculator](./images/PCBCalculator.png)|Diferentes calculadoras sobre temas de electrónica||
+|PL Editor| ![PL Editor](./images/PLEditor.png)|Editor de la plantilla para diseño|*.kicad_wks|
 
 ## Creamos el schema
 
