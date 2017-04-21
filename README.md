@@ -10,20 +10,16 @@
 
 ## ¿Qué es [Kicad](http://kicad-pcb.org) (http://kicad-pcb.org)?
 
-Es una aplicación open-source formado por diferentes componentes que nos permite diseñar circuitos electrónicos en todas las fases del desarrollo.
+Es un paquete de aplicaciones open-source formado por diferentes componentes pensados para trabajar las distintas fases de la creación y desarrollo de circuitos electrónicos.
 
 
 ![kicad](http://kicad-pcb.org/img/frontpage/kicad_pcbnew.png)
 
-Actualmente [recibe apoyo](http://kicad-pcb.org/about/kicad/) de entidades tan importantes como el CERN, la fundación Raspberry o Arduino
-
-
-Está formado por diferentes herramientas cada una destinada a una parte diferente del proceso de desarrollo.
+Actualmente [recibe apoyo](http://kicad-pcb.org/about/kicad/) de entidades tan importantes como el CERN, la fundación Raspberry o Arduino.
 
 ## Documentación
 
 Existe mucha [documentación](http://kicad-pcb.org/help/documentation/) y traducida a varios idiomas
-
 
 También disponemos de [diferentes tutoriales](http://kicad-pcb.org/help/tutorials/) y [videotutoriales](http://kicad-pcb.org/help/tutorials/#_video_tutorials) desde un nivel básico hasta uno tan avanzado que nos enseña a [diseñar una placa compatible con Arduino UNO](https://www.youtube.com/user/XploreLabz/videos)
 
@@ -47,6 +43,9 @@ Si nos gusta estar a la última (aunque con su riesgo...) podemos instalar las b
 
 
 ## Creación de un circuito
+
+### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
+
 ## Creamos el schema
 
 ![Create schema.png](./images/Create schema.png)
