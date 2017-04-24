@@ -50,6 +50,8 @@ Si nos gusta estar a la última (aunque con su riesgo...) podemos instalar las b
 
 ### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
 
+#### [¿Qué es una PCB?](./PCBs.md)
+
 ## Componentes
 
 Desde la pantalla inicial donde vemos el proyecto podemos abrir las distintas herramientas que se corresponden con las diferentes fases y resultados
