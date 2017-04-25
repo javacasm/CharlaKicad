@@ -73,9 +73,7 @@ Viendo la complejidad de una PCB, ahora vemos que son muchas las distintas "capa
 
 ### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
 
-## Creamos el schema
-
-![Create schema](./images/Create schema.png)
+## Creamos el schema ![Create schema](./images/Create schema.png)
 
   * Seleccionamos los componentes  y los conectamos entre si.
   * Definir un conjunto de reglas que tiene que cumplir nuestro circuito
@@ -83,10 +81,10 @@ Viendo la complejidad de una PCB, ahora vemos que son muchas las distintas "capa
   * Suele ocurre que no existe el que buscamos, lo que podemos resolver con CvPCB
 ![](https://github.com/javacasm/CharlaKicad/raw/master/images/CVPCB.png)
 
-  * Con PCBNew definimos cómo se disponen y conectan los componentes en la placa
+  * Con PCBNew definimos cómo se disponen y conectan los componentes en la placa ![PCBNew](https://github.com/javacasm/CharlaKicad/raw/master/images/PCBNew.png)
   * Definimos más reglas (por ejemplo la distancia entre componentes y las pistas)
 
-![PCBNew](https://github.com/javacasm/CharlaKicad/raw/master/images/PCBNew.png)
+
 
 Todos estos procesos son iterativos y vamos mejorando el resultado
 
