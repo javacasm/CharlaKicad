@@ -88,9 +88,7 @@ Viendo la complejidad de una PCB, ahora vemos que son muchas las distintas "capa
 
 Todos estos procesos son iterativos y vamos mejorando el resultado
 
-Cuando hemos terminado generamos los ficheros Gerber, que podemos ver con GerberViewer
-
-![GerberViewer](https://github.com/javacasm/CharlaKicad/raw/master/images/GerberViewer.png)
+Cuando hemos terminado generamos los ficheros Gerber, que podemos ver con GerberViewer ![GerberViewer](https://github.com/javacasm/CharlaKicad/raw/master/images/GerberViewer.png)
 
 A partir de los ficheros Gerber, iniciamos el proceso de fabricación, por ejemplo con [DirtyPCBs](http://dirtypcbs.com/store/pcbs)
 
@@ -99,6 +97,29 @@ A partir de los ficheros Gerber, iniciamos el proceso de fabricación, por ejemp
 Los fabricantes  piden que las placas cumplan determinadas reglas de diseño (relacionadas con sus tolerancias y calidades) que deberemos incluir en el diseño.
 
 Para encargarla sólo tendremos que subir los diferentes ficheros de las diferentes capas: pistas, agujeros, cortes, serigrafía, ....
+
+## Hagamos un ejemplo .....
+
+Shift+? Hotkeys
+
+* Abrimos Eeschema
+* Configuramos la página con nuestros datos
+* Seleccionamos los componentes "a"
+* Editamos el componente con  "e"
+* Si no existe lo creamos con el Library Editor ![LE](https://github.com/javacasm/CharlaKicad/raw/master/images/SchematicLibraryEditor.png)
+* Para conectar hacemos click entre los componentes
+* En cualquier momento podemos revisar cómo va el diseño, validando las reglas
+* Anotamos los componentes dándoles nombre
+* Vamos a asociar las huellas (por defecto se sacan de github) de nuestros componentes. ![CvPCB](https://github.com/javacasm/CharlaKicad/raw/master/images/CVPCB.png)
+* Si no existe lo podemos crear ![](https://github.com/javacasm/CharlaKicad/raw/master/images/PCBFootprintEditor.png)
+* Generamos la red de conexiones
+* Y la importanmos desde PCBNew
+* Colocamos los componentes
+* Comenzamos el enrutados
+* Podemos usar herramientas externas FreeRoute
+
+
+
 
 ## Referencias
 
