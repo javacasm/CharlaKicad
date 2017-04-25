@@ -117,7 +117,8 @@ Shift+? Hotkeys
 * Colocamos los componentes
 * Comenzamos el enrutados
 * Podemos usar herramientas externas FreeRoute
-
+* Etiquetamos
+* Añadimos la serigrafía....
 
 
 
