@@ -73,7 +73,7 @@ Viendo la complejidad de una PCB, ahora vemos que son muchas las distintas "capa
 
 ### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
 
-## Creamos el schema ![Create schema](./images/Create schema.png)
+* Creamos el schema ![Create schema](./images/CreateSchema.png)
 
   * Seleccionamos los componentes  y los conectamos entre si.
   * Definir un conjunto de reglas que tiene que cumplir nuestro circuito
