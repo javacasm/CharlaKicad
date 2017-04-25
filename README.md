@@ -23,8 +23,6 @@ Existe mucha [documentación](http://kicad-pcb.org/help/documentation/) y traduc
 
 También disponemos de [diferentes tutoriales](http://kicad-pcb.org/help/tutorials/) y [videotutoriales](http://kicad-pcb.org/help/tutorials/#_video_tutorials) desde un nivel básico hasta uno tan avanzado que nos enseña a [diseñar una placa compatible con Arduino UNO](https://www.youtube.com/user/XploreLabz/videos)
 
-
-
 Personalmente estoy siguiendo la serie [8 vídeos de Applied Electronics](https://www.youtube.com/playlist?list=PLasv3NGTWxRtv5-lh-6zYzKbRS5hVgy1C), que aunque va algo lenta empieza por el orden que a mi me parece más lógico. También tengo apuntado para ver el [vídeo de Windsor Schmidt](https://www.youtube.com/watch?v=zK3rDhJqMu0)
 
 ## Instalación en Ubuntu
@@ -42,15 +40,6 @@ Si nos gusta estar a la última (aunque con su riesgo...) podemos instalar las b
     sudo add-apt-repository --yes ppa:js-reynaud/ppa-kicad
     sudo apt update
     sudo apt install kicad
-
-
-## Creación de un circuito
-
-![flujo de trabajo](http://docs.kicad-pcb.org/4.0.6/es/images/es/kicad_flowchart.png)
-
-### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
-
-#### [¿Qué es una PCB?](./PCBs.md)
 
 ## Componentes
 
@@ -71,12 +60,47 @@ Desde la pantalla inicial donde vemos el proyecto podemos abrir las distintas he
 |PCB Calculator| ![PCB Calculator](./images/PCBCalculator.png)|Diferentes calculadoras sobre temas de electrónica||
 |PL Editor| ![PL Editor](./images/PLEditor.png)|Editor de la plantilla para diseño|*.kicad_wks|
 
+
+
+#### [¿Qué es una PCB?](./PCBs.md)
+
+Viendo la complejidad de una PCB, ahora vemos que son muchas las distintas "capas" que tenemos que diseñar, con el objetivo de que todas interaccionen adecuadamente.
+
+
+## Creación de un circuito
+
+![flujo de trabajo](http://docs.kicad-pcb.org/4.0.6/es/images/es/kicad_flowchart.png)
+
+### ¿Cuáles son los pasos del desarrollo de la placa de un circuito electrónico?
+
 ## Creamos el schema
 
-![Create schema.png](./images/Create schema.png)
+![Create schema](./images/Create schema.png)
 
-  Colocamos los componentes
+  * Seleccionamos los componentes  y los conectamos entre si.
+  * Definir un conjunto de reglas que tiene que cumplir nuestro circuito
+  * Definimos el formato/huella de los componentes
+  * Suele ocurre que no existe el que buscamos, lo que podemos resolver con CvPCB
+![](https://github.com/javacasm/CharlaKicad/raw/master/images/CVPCB.png)
 
+  * Con PCBNew definimos cómo se disponen y conectan los componentes en la placa
+  * Definimos más reglas (por ejemplo la distancia entre componentes y las pistas)
+
+![PCBNew](https://github.com/javacasm/CharlaKicad/raw/master/images/PCBNew.png)
+
+Todos estos procesos son iterativos y vamos mejorando el resultado
+
+Cuando hemos terminado generamos los ficheros Gerber, que podemos ver con GerberViewer
+
+![GerberViewer](https://github.com/javacasm/CharlaKicad/raw/master/images/GerberViewer.png)
+
+A partir de los ficheros Gerber, iniciamos el proceso de fabricación, por ejemplo con [DirtyPCBs](http://dirtypcbs.com/store/pcbs)
+
+### ¿Cuanto cuesta un tirada de pcbs?
+
+Los fabricantes  piden que las placas cumplan determinadas reglas de diseño (relacionadas con sus tolerancias y calidades) que deberemos incluir en el diseño.
+
+Para encargarla sólo tendremos que subir los diferentes ficheros de las diferentes capas: pistas, agujeros, cortes, serigrafía, ....
 
 ## Referencias
 
